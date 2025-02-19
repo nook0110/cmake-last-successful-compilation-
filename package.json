@@ -2,8 +2,12 @@
   "name": "CMakeLastSuccessfulCompilation",
   "displayName": "CMake Last Successful Compilation ",
   "publisher": "nook0110",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nook0110/cmake-last-successful-compilation-"
+  },
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.97.0"
   },
@@ -27,11 +31,11 @@
             "type": "string"
           },
           "default": [
-            "Awesome",
-            "Fantastic",
-            "Incredible",
-            "Remarkable",
-            "Extraordinary"
+            "Ты даун!",
+            "Ты бесполезен...",
+            "Лучше пиши на питоне.",
+            "Глаза бы мои этого не видели...",
+            "Откуда у тебя руки растут, даже не из жопы ведь..."
           ],
           "description": "List of sentences used to generate random compliments."
         }
